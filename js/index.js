@@ -9,6 +9,8 @@ let car;
 let y = 560;
 let x = 200;
 
+
+
 const carWidth = 90;
 const randomSize = Math.floor(Math.random() * (210 - 90 + 1)) + 90;
 const randomPosition = Math.floor(Math.random() * (340 - 50 + 1)) + 50;
@@ -75,14 +77,6 @@ function collision(){
   }
 }
 
-// function gameOver(){
-
-//   if(spike === car){
-
-//     startScreen.style.display = "unset"
-//   }
-
-// }
 
 function draw(){
 
@@ -92,9 +86,6 @@ function draw(){
 
   keyPressed()
   collision()
-  spikeDrop()
-
-  // gameOver()
 }
 
 
@@ -114,3 +105,12 @@ window.onload = () => {
 //come back
 // carStart.play()
 // let carStart = loadSound('../sound/mixkit-car-ignition-1535.wav');
+
+// function gameOver(){
+
+//   if(spike === ){
+
+//     startScreen.style.display = "unset"
+//   }
+
+// }
